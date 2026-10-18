@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.header-section-1{
+    border: 2px solid black;
+    height: 40vh;
+    background: linear-gradient(to right,#030414, #351C39);
+}
+footer{
+    background: linear-gradient(to right, #351c39,#030414);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+}
+.footer-wrapper{
+    width: 90%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+.brand-list{
+    /* border: 3px solid green; */
+    display: flex;
+    gap: 3rem;
+    padding-bottom: 6rem;
+}
+.brand-footer{
+    /* border: 2px solid blue; */
+    width: 15%;
+}
+.brand-footer .brand-text a{
+    /* border: 2px solid red; */
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Orbitron", sans-serif;
+    gap: .5rem;
+}
+.brand-footer p{
+    /* border: 1px solid red; */
+    color: #ffffff;
+    font-weight: 400;
+    /* width: 43%; */
+    font-family: "Sora", sans-serif;
+    margin: .5rem 0;
+}
+.social-media{
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.social-media svg{
+    /* border: 2px solid red; */
+    font-size: 1.5rem;
+}
+.list{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 18rem;
+    /* width: 85%; */
+}
+.list ul{
+    list-style-type: none;
+}
+.list ul h3{
+    /* border: 1px solid green; */
+    font-family: "Orbitron", sans-serif;
+    margin-bottom: 1rem;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+.list ul li{
+    /* border:1px solid red; */
+    font-family: "Sora", sans-serif;
+    margin-bottom: .5rem;
+
+}
+.list ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    color: #ffffff;
+}
+.reserved{
+    border-top: 1px solid #434141;
+    padding: .7rem;
+    border-top: 2px solid #434141;
+    
+   
+}
+.reserved p span{
+    font-size: 1rem;
+    color: #030414;
+}
+.reserved p{
+     font-family: "Sora", sans-serif;
+    font-weight: 400;
+    color: #434141;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .2rem;
+}
+
